@@ -1,4 +1,5 @@
-# 原始会话语料：含同事账号名、业务功能名与 185 条内部发言原文
-# ⛔ 不是我的，不发布。备份走公司内部途径，不进这个仓。
+# The source sessions: 185 internal utterances, a colleague's account name, and
+# work-item names from a commercial codebase. Not mine to publish. Backed up
+# elsewhere; it does not belong in this repository.
 raw/
 *.jsonl
