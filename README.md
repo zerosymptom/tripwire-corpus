@@ -47,12 +47,15 @@ on material of your own. That is a real limitation and it is the main one.
 | Cohen's κ | **0.296** |
 | Axis-2 failures the public taxonomy cannot hold | **10 of 24 (42%)** |
 
-**On the κ.** 0.813 agreement sits almost exactly on the 0.83 reported by the
-public study this work benchmarks against. The κ does not: at a ~15% positive
-rate, chance agreement alone is 0.735, so two annotators can agree on four turns
-in five while sharing almost no view of what counts as a failure. The public
-study reports agreement and not κ. That comparison is the finding — it is not a
-confession about this dataset, it applies to any result of this shape.
+**On the κ.** 0.813 agreement sits close to the 0.78 reported by the public study
+this work benchmarks against. The κ does not: at a ~15% positive rate, chance
+agreement alone is 0.735, so two annotators can agree on four turns in five while
+sharing almost no view of what counts as a failure.
+
+That study reports percent agreement **rather than** Cohen's κ, and says so
+explicitly, citing severe class imbalance. So the gap below is not an oversight
+being exposed — it is what that stated caveat measures out to on comparable
+material. Smaller claim, but one that survives contact with the paper.
 
 The obvious explanation is that the two annotators were measuring different
 things: A could see after-the-fact rework, B structurally could not. `reproduce.py`
