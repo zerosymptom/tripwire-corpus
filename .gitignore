@@ -3,3 +3,4 @@
 # elsewhere; it does not belong in this repository.
 raw/
 *.jsonl
+.DS_Store
